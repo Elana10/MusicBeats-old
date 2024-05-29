@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const {TEAM_ID, KID, APPLE_PRIVATE_KEY } = require('../secret')
+// const {TEAM_ID, KID, APPLE_PRIVATE_KEY } = require('../secret')
 
 function getToken(){
 
