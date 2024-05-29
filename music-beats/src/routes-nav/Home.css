@@ -1,0 +1,18 @@
+.intro-div{
+    width: 80%;
+    color: #646cff;
+    font-weight: 500;
+}
+
+.the-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4.references-header{
+    font-size: 1.5em;
+    color: rgb(158, 176, 255);
+}
+

@@ -1,0 +1,186 @@
+h2{
+    font-size: 1.5em;
+    color: #646cff;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(9, 9, 98);
+    background-color: rgb(9, 9, 98);
+    padding: 8px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .3em;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#description{
+    height: 100px;
+}
+
+input{
+    background-color: rgb(158, 176, 255);
+    color:rgb(9, 9, 98);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.title-input{
+    font-size: 1.5em;
+}
+
+select{
+    background-color: rgb(158, 176, 255);
+    color:rgb(9, 9, 98);
+    text-align: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+label{
+    color:rgb(158, 176, 255);
+}
+
+textarea{
+    background-color: rgb(158, 176, 255);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color:rgb(9, 9, 98);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.div-container-form{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.form-submit-button{
+    background-color: purple;
+    width: 30%;
+    color:rgb(9, 9, 98);
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    font-size: 1em;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.form-submit-button:hover{
+    border: solid rgb(158, 176, 255) 2px;
+    border-radius: 8px;
+
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    padding: .25em;
+    box-sizing: border-box;
+}
+
+.playlist-div-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.playlist-card-div-row{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.play-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #646cff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.play-footer{
+    background-color: #646cff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 1.5em;
+}
+
+.play-head-name{
+    color:rgb(9, 9, 98);
+    padding-left: 2%;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.div-head-tempo{
+    color:rgb(9, 9, 98); 
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-right: 50%;
+}
+
+.playlist-card-div-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:4px;
+}
+.playlist-name{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #646cff;
+}
+.playlist-tempo{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #646cff;
+}
+.playlist-name-container{
+    width: 30%;
+}
+
+.options-div-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.playlist-card-div-row:hover{
+    background-color: rgb(9, 9, 98);
+}
+.playlist-options-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.center-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loading-spinner{
+    margin-top: 2em;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #646cff;
+}

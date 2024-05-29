@@ -1,0 +1,20 @@
+.login-signup{
+    width: 50%;
+    margin-top: 10%;
+    padding: 1em;
+}
+.login-signup-button{
+    width: 20%;
+}
+.login-signup-button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.f-label{
+    width: 50%;
+}
+.space-around{
+    display: flex;
+    justify-content: space-between;
+}
