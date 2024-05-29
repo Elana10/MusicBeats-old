@@ -7,7 +7,8 @@ function getDatabaseUri(){
 
 
 const BASE_URL = 'https://api.music.apple.com/v1';
-const PORT = +process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
+const port = process.env.PORT || 3001;
 
 const SECRET_JWT_KEY = "FlamingoParty!"
 
